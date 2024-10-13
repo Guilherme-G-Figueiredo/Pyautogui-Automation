@@ -1,8 +1,8 @@
-import pyautogui #importa a biblioteca
+import pyautogui #import the library
 import time
 
 time.sleep(3)
-print(pyautogui.position()) #escreve no terminal a coordenada da posição do cursor
+print(pyautogui.position()) #prints in the terminal the current position of the cursor
 
 #         codigo       marca        tipo  categoria  preco_unitario  custo               obs
 #0    MOLO000251    Logitech       Mouse          1           25.95    6.5               NaN
