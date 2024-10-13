@@ -1,16 +1,14 @@
-# Passo a passo do projeto
-# Passo 1: Entrar no sistema da empresa >https://dlp.hashtagtreinamentos.com/python/intensivao/login<
-import pyautogui #importa a biblioteca pyautogui
-import time #importa a biblioteca time
+import pyautogui #imports the pyautogui library
+import time #imports the time library
 
-pyautogui.PAUSE = 0.5 #configura um intervalo de 0.5 segundos entre cada comando
+pyautogui.PAUSE = 0.5 #sets a 0.5 delay between each command line
 
-pyautogui.press("win") #pressiona uma tecla
-pyautogui.write("chrome") #escreve uma linha de texto
+pyautogui.press("win") #presses the win key
+pyautogui.write("chrome") #writes 'chrome' with keyboard imputs
 pyautogui.press("enter")
 
-time.sleep(1.5) #define uma pausa de 1 segundo e meio, apenas nessa linha de código
-pyautogui.hotkey("ctrl", "t") #pressiona um conjunto de teclas formando um atalho
+time.sleep(1.5) #waits for 1.5 seconds, only in this command line
+pyautogui.hotkey("ctrl", "t") #presses a combination of keys, forming a hotkey
 
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login" #define um texto a variavel link
 pyautogui.write(link)
